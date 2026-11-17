@@ -37,7 +37,7 @@ a{color:inherit}
 
 /* ---------- первый экран ---------- */
 .hero{position:relative;overflow:hidden;padding:clamp(20px,3vw,40px) var(--gut) clamp(28px,4vw,52px)}
-.hero::before{content:"";position:absolute;inset:0;background:var(--acc);clip-path:polygon(72% 0,100% 0,100% 100%,55% 100%)}
+.hero::before{content:"";position:absolute;inset:0;background:var(--acc);clip-path:polygon(72% 0,100% 0,100% 100%,55% 100%);clip-path:polygon(min(72%,calc(50% + 330px)) 0,100% 0,100% 100%,min(55%,calc(50% + 85px)) 100%)}
 .top{display:flex;align-items:center;gap:30px}
 .logo{font:800 clamp(14px,1.5vw,19px)/1 "Unbounded",sans-serif;letter-spacing:.02em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:11px 14px;text-decoration:none;white-space:nowrap;display:inline-block}
 .logo em{font-style:normal;color:var(--acd)}
